@@ -1,0 +1,11 @@
+@mixin tx-logo($size:24px) {
+	@media (min-width: 1024px) {
+		font: {
+			weight: bold;
+			size: $size;
+		}
+		text-transform: uppercase;
+		color: $green-color;
+		padding: 3% 0 8% 0;
+	}
+}

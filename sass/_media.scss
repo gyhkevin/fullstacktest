@@ -1,0 +1,31 @@
+@media (min-width: 1024px) {
+    .text_logo{
+		text-align:left;
+		line-height: 42px;
+		font: {
+			size: 42px;
+			weight: bold;
+		}
+		sup{font-size:21px;}
+	}
+}
+@media (min-width: 768px) {
+    .text_logo{
+		text-align:left;
+		font: {
+			size: 36px;
+			weight: bold;
+		}
+		sup{font-size:18px;}
+	}
+}
+@media (min-width: 320px) {
+    .text_logo{
+		text-align:center;
+		font: {
+			size: 24px;
+			weight: bold;
+		}
+		sup{font-size:12px;}
+	}
+}
