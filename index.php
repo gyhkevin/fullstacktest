@@ -121,17 +121,22 @@ into a cash generating asset</p>
 			</li>
 			<li>
 				<div class="">
-					<form action="contactus" method="post">
-						<input type="email" name="email" value="" placeholder="EMAIL" class="uk-form-help-block uk-form-width-large">
-						<textarea name="message" placeholder="MESSAGE" class="uk-form-help-block uk-form-width-large"></textarea>
-						<input type="submit" value="submit">
+					<form action="contactus" id="contactus" method="post">
+						<input type="email" name="email" value="" placeholder="EMAIL" class="uk-width-1-1">
+						<textarea name="message" placeholder="MESSAGE" class="uk-width-1-1"></textarea>
+						<input type="submit" value="submit" class="uk-button uk-button-success uk-width-1-1">
 					</form>	
 				</div>
 			</li>
 		</ul>
 	</div>
 	<div class="uk-panel-space"></div>
-
+	<div class="footer_logo_bg">
+		<div class=""></div>
+	</div>
+	<div class="limited">
+		<p>@ 2015 all rights reserved. Vecor Limited</p>
+	</div>
 	<div id="offcanvas" class="uk-offcanvas">
 		<div class="uk-offcanvas-bar">
 			<ul class="uk-nav uk-nav-offcanvas">

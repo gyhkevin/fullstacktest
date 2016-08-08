@@ -193,3 +193,20 @@ ul.list_good{
 		weight:bold;
 	}
 }
+.footer_logo_bg{
+	
+}
+.limited{
+	background-color:#7bb801;
+	p{
+		font: {
+			family: $font-raleway;
+			size: 14px;
+		}
+		color: $white-color;
+		line-height: 24px;
+		text-align: center;
+		margin: 0;
+	}
+	
+}
