@@ -169,7 +169,6 @@ ul.list_good{
 	color:$white-color;
 	h3{
 		width: 80%;
-		// margin: 0;
 		padding: 0 10%;
 		color: $green-color;
 		font:{
@@ -180,7 +179,6 @@ ul.list_good{
 	}
 	p{
 		width: 80%;
-		// margin: 0;
 		padding: 0 10%;
 	}
 }
@@ -194,7 +192,28 @@ ul.list_good{
 	}
 }
 .footer_logo_bg{
-	
+	background-color:#424243;
+}
+.customer_logo{
+	padding: 20% 0 0;
+}
+.customer{
+	padding: 20% 0;
+	h3{
+		width: 80%;
+		padding: 0 10%;
+		color: $green-color;
+		font:{
+			family:$font-raleway;
+			size:16px;
+			weight:bold;
+		}
+	}
+	p{
+		width: 80%;
+		padding: 0 10%;
+		color: $white-color;
+	}
 }
 .limited{
 	background-color:#7bb801;

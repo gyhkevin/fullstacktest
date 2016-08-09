@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="libs/uikit/js/uikit.min.js"></script>
 	<script type="text/javascript" src="libs/uikit/js/components/parallax.min.js"></script>
+	<script type="text/javascript" src="libs/uikit/js/components/slideset.min.js"></script>
 </head>
 <body>
 	<div class="mynavbar">
@@ -121,7 +122,8 @@ into a cash generating asset</p>
 			</li>
 			<li>
 				<div class="">
-					<form action="contactus" id="contactus" method="post">
+					<form id="contactus" method="post">
+						<input type="hidden" name="contactus" value="1">
 						<input type="email" name="email" value="" placeholder="EMAIL" class="uk-width-1-1">
 						<textarea name="message" placeholder="MESSAGE" class="uk-width-1-1"></textarea>
 						<input type="submit" value="submit" class="uk-button uk-button-success uk-width-1-1">
@@ -132,7 +134,45 @@ into a cash generating asset</p>
 	</div>
 	<div class="uk-panel-space"></div>
 	<div class="footer_logo_bg">
-		<div class=""></div>
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+				<div class="uk-width-1-5 footer_loge">
+					<img class="customer_logo" src="images/logo2.png">
+				</div>
+				<div class="uk-width-4-5">
+					<ul class="uk-grid uk-grid-large uk-grid-width-large-1-4 uk-grid-width-medium-1-2 uk-grid-width-small-1-1 partner_grid" data-uk-grid-margin >
+						<li class="uk-text-center">
+							<div class="customer">
+								<img src="images/customer_logo1.png">
+								<h3>2013.12.4 && 2014.12.24</h3>
+								<p>Top 500 Innovative Development Enterprise of 2013 of Zibo City</p>
+							</div>
+						</li>
+						<li class="uk-text-center">
+							<div class="customer">
+								<img src="images/customer_logo2.png">
+								<h3>2014.10.10</h3>
+								<p>CSIBM Certificate of Honor</p>
+							</div>
+						</li>
+						<li class="uk-text-center">
+							<div class="customer">
+								<img src="images/customer_logo1.png">
+								<h3>2015.1.14</h3>
+								<p>CSIBM Certificate of Honor</p>
+							</div>
+						</li>
+						<li class="uk-text-center">
+							<div class="customer">
+								<img src="images/customer_logo2.png">
+								<h3>2015.4.1</h3>
+								<p>Chinese Building Material Low Carbon Environmental Company</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="limited">
 		<p>@ 2015 all rights reserved. Vecor Limited</p>

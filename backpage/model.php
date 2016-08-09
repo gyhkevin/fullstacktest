@@ -1,7 +1,7 @@
 <?php
 class IndexModel {
 	function open_database_connection() {
-		$link = new PDO ( "mysql:host=localhost;dbname=fstest", 'root', '123456' );
+		$link = new PDO ( "mysql:host=127.0.0.1;dbname=fstest", 'root', '123456' );
 		return $link;
 	}
 	function close_database_connection(&$link) {
