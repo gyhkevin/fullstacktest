@@ -146,5 +146,16 @@ into a cash generating asset</p>
 			</ul>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$('#contactus').submit(function(){
+			$.post('backpage/controller.php',$('$contactus').serialize(),function(e){
+				if (e.state == 1) {
+					alert('Send failed! ');
+				}else{
+					alert('Send Succeed! ');
+				}
+			});
+		});
+	</script>
 </body>
 </html>
